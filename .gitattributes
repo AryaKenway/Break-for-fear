@@ -1,0 +1,15 @@
+# Ignore third-party and generated stuff
+Assets/Plugins/** linguist-generated
+Assets/TextMesh?Pro/** linguist-generated
+Assets/Standard Assets/** linguist-generated
+
+# Ignore shader files
+*.shader linguist-generated
+*.cginc linguist-generated
+*.hlsl linguist-generated
+
+# Ignore Unity metadata
+*.meta linguist-generated
+
+# Force C# as the main language
+*.cs linguist-language=C#
