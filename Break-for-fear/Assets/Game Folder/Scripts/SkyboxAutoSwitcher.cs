@@ -6,7 +6,7 @@ public class SkyboxAutoSwitcher : MonoBehaviour
 
     private int currentSkyboxIndex = 0;
     private float timer = 0f;
-    private float switchInterval = 5f;  // 300 seconds = 5 minutes
+    private float switchInterval = 300f;  // 300 seconds = 5 minutes
 
     void Start()
     {
